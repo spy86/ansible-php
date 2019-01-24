@@ -23,16 +23,11 @@ Example Playbook
 
 ```yaml
 ---
-php5_composer: yes
+- hosts: servers
+  remote_user: root
+  roles:
+   - role: ansible-php
 
-php5_extensions:
-  - curl
-  - gd
-  - intl
-  - mcrypt
-  - mysql
-  - redis
-  - xcache
 ```
 
 License
