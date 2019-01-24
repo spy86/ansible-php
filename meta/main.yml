@@ -2,7 +2,7 @@ galaxy_info:
   author: Maciej MMichalski
   description: Ansible role to install php
 
-  issue_tracker_url:
+  issue_tracker_url: https://bitbucket.org/devops_sysops/ansible-php/issues?status=new&status=open
   license: MIT
 
   min_ansible_version: 2.0
