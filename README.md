@@ -31,9 +31,3 @@ Example Playbook
    - role: ansible-php
 
 ```
-
-License
--------
-
-MIT
-
